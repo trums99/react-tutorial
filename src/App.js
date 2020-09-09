@@ -2,13 +2,28 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/*
+const greeting = `suck 
+  my 
+  \n dick`
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. penis
+        </p>
+
+        <p>
+          wow please {greeting}
+        </p>
+        <p>
+        Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.
+It is the seat of the Japanese government and the Imperial Palace,
+and the home of the Japanese Imperial Family.
         </p>
         <a
           className="App-link"
@@ -22,5 +37,26 @@ function App() {
     </div>
   );
 }
+*/
+const App = () => {
+  const user = {name: 'trums', age: 99};
+  const users = [
+    {name: "guh"},
+    {name: "jeff"},
+    {name: "lelw"}
+  ];
 
+  const showUsers = true;
+
+  return(
+    <div>
+      <h1>{user.name} {user.age}</h1>
+      {showUsers ? (
+      <ul>
+        {users.map(user => <li>{user.name}</li>)}
+      </ul>) : null}
+    </div>
+  );
+}
+ 
 export default App;
