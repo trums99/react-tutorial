@@ -1,6 +1,11 @@
-import React from 'react';
+ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+
 
 /*
 const greeting = `suck 
@@ -42,7 +47,7 @@ const App = () => {
   const user = {name: 'trums', age: 99};
   const users = [
     {name: "guh"},
-    {name: "jeff"},
+    {name: "njeff"},
     {name: "lelw"}
   ];
 
